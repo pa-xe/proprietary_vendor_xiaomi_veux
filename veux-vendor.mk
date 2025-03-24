@@ -532,7 +532,7 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libthermalclient \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.qspmhal@1.0 \
+    vendor.qti.qspmhal@1.0_vendor \
     btaudio_offload_if \
     audio.primary.holi_vendor \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
