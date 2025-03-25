@@ -563,6 +563,7 @@ PRODUCT_PACKAGES += \
     libgcs \
     libhdmiedid_vendor \
     libhdmipassthru \
+    libhfp_vendor \
     liblistensoundmodel2 \
     libmmosal_vendor \
     libmmrtpdecoder_proprietary \
