@@ -200,13 +200,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
-    vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
-    vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/veux/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
@@ -264,8 +262,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/xiaomi/veux/proprietary/vendor/etc/qdcm_calib_data_xiaomi_k6s_38_0c_0a_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_k6s_38_0c_0a_fhd_dsc_video_dsi_panel.xml \
     vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
-    vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
-    vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/xiaomi/veux/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
@@ -480,10 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/veux/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
     vendor/xiaomi/veux/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
-    vendor/xiaomi/veux/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
-    vendor/xiaomi/veux/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
-    vendor/xiaomi/veux/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/xiaomi/veux/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/veux/proprietary/vendor/lib64/camera/com.qti.sensormodule.veux_aac_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.veux_aac_gc02m1.bin \
     vendor/xiaomi/veux/proprietary/vendor/lib64/camera/com.qti.sensormodule.veux_aac_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.veux_aac_imx355.bin \
     vendor/xiaomi/veux/proprietary/vendor/lib64/camera/com.qti.sensormodule.veux_aac_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.veux_aac_ov16a1q.bin \
@@ -505,34 +497,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/veux/proprietary/vendor/lib64/camera/com.qti.tuned.veux_sunny_s5khm2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.veux_sunny_s5khm2.bin
 
 PRODUCT_PACKAGES += \
-    eglSubDriverAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libq3dtools_adreno \
-    libq3dtools_esx \
-    vulkan.adreno \
-    libC2D2 \
-    libCB \
-    libOpenCL \
-    libVkLayer_q3dtools \
-    libadreno_app_profiles \
-    libadreno_utils \
-    libc2d30_bltlib \
     libcamxexternalformatutils \
     libcdsprpc \
     libdiag \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgpudataproducer \
-    libgsl \
-    libkcl \
-    libkernelmanager \
-    libllvm-glnext \
-    libllvm-qcom \
     libthermalclient \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.qspmhal@1.0_vendor \
     btaudio_offload_if \
     audio.primary.holi_vendor \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -569,13 +540,6 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_hooks \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
     libqtigef \
     libsndmonitor_vendor \
     libspkrprot_vendor \
@@ -775,7 +739,6 @@ PRODUCT_PACKAGES += \
     fingerprint.silead.default \
     libgf_hal \
     vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
@@ -1022,7 +985,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
-    vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
@@ -1073,10 +1035,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_server@1.0_vendor \
     vendor.qti.hardware.slmadapter@1.0_vendor \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.ims.callcapability@1.0_vendor \
     vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0_vendor \
@@ -1129,12 +1087,10 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
-    c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.qti.diag.hal.service.xml \
@@ -1156,12 +1112,10 @@ PRODUCT_PACKAGES += \
     qcrilNrd \
     vendor.display.color@1.0-service \
     vendor.qti.esepowermanager@1.1-service \
-    vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
-    vendor.qti.media.c2@1.0-service \
     vendor.qti.secure_element@1.2-service \
     vendor.silead.hardware.fingerprintext@1.0-service \
     ims_rtp_daemon \
@@ -1179,7 +1133,6 @@ PRODUCT_PACKAGES += \
     pm-proxy \
     pm-service \
     port-bridge \
-    power_off_alarm \
     ppd \
     qdcmss \
     qmipriod \
@@ -1195,11 +1148,3 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0-service \
     wfdvndservice \
     wifidisplayhalservice
-
-PRODUCT_PACKAGES += \
-    libEGL_adreno_libEGL_adreno_symlink32 \
-    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
-    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
-    libEGL_adreno_libEGL_adreno_symlink64 \
-    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
-    libq3dtools_adreno_libq3dtools_adreno_symlink64
